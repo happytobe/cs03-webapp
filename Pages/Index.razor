@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<h1>Welcome</h1>
+
+<p>This is Khoi (Tibo) Phung's submission for competition:</p>
+
+<p><em>19-MOT-IA-HRS-94589 - CS-03 Technical Advisor Process, Application Development</em></p>
+
+<p>
+    Key links:
+    <ul>
+        <li><a href="https://tc-cs03-api.azurewebsites.net/swagger/index.html">Reviews API Swagger page</a></li>
+        <li><a href="https://tc-cs03-app.azurewebsites.net/">Hosted Reviews Web App (in case you are running this locally from code)</a></li>
+    </ul>
+</p>
+
+<AuthorizeView>
+    <NotAuthorized>
+        <hr />
+        <p>To get started, <a href="Identity/Account/Login">please log in</a></p>
+    </NotAuthorized>
+</AuthorizeView>
